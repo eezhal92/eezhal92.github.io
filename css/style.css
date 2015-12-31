@@ -7,7 +7,11 @@ html, body {
 }
 
 section#home {
-    background: #1abc9c;
+    /*background: #1abc9c;*/
+    background: url(../img/milky-way.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     color: #fff;
 }
@@ -30,6 +34,7 @@ section#home .avatar .tagline {
     margin-top: 28px;
     font-size: 24px;
     text-align: center;
+    text-shadow: 1px 1px 1px #000;
 }
 
 section#home .avatar .tagline > h1 {
